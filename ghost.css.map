@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "ghost.scss"
+    ],
+    "names": [],
+    "file": "ghost.css"
+}

@@ -1,0 +1,914 @@
+$green: rgb(75, 159, 2);
+$darkg: rgb(54, 114, 1);
+$black: black;
+$orange: rgb(243, 140, 6);
+$light: rgb(236, 113, 12);
+$darko: rgb(238, 106, 18);
+$eyes: rgb(255, 251, 0);
+
+
+html{
+  background-color: black;
+}
+
+.pixel-container {
+    width: 25em;
+    height: 25em;
+}
+
+.pixel {
+    width: 1em;
+    height: 1em;
+       
+    box-shadow: 
+      23em 5em $darkg,               
+      22em 6em $darkg,
+      22em 4em $darkg,
+      21em 4em $darkg,                
+      20em 5em $darkg,
+      19em 6em $darkg,
+      19em 7em $darkg,
+      19em 8em $darkg,
+      21em 6em $darkg,
+      21em 7em $darkg,
+      21em 8em $darkg,
+
+      22em 5em $green,
+      21em 5em $green,
+      21em 6em $green,
+      20em 6em $green,
+      20em 7em $green,
+      20em 8em $green,
+      20em 9em $green,
+      21em 9em $darko,
+      22em 9em $darko,
+      19em 9em $darko,
+      18em 9em $darko,
+
+   // outline
+
+      24em 8em $darko,
+      23em 8em $darko,
+      25em 8em $darko,
+      26em 8em $darko,
+      17em 8em $darko,
+      16em 8em $darko,
+      15em 8em $darko,
+      14em 8em $darko,
+
+      27em 9em $darko,
+      28em 9em $darko,
+      12em 9em $darko,
+      13em 9em $darko,
+
+      11em 10em $darko,
+      10em 10em $darko,
+      29em 10em $darko,
+      30em 10em $darko,
+
+      9em 11em $darko,
+      31em 11em $darko,
+
+      8em 12em $darko,
+      8em 13em $darko,
+
+      32em 12em $darko,
+      32em 13em $darko,
+
+      7em 14em $darko,
+      7em 15em $darko,
+      7em 16em $darko,
+      7em 17em $darko,
+      7em 18em $darko,
+      7em 19em $darko,
+      7em 20em $darko,
+      7em 21em $darko,
+      7em 22em $darko,
+      7em 23em $darko,
+      7em 24em $darko,
+      7em 25em $darko,
+
+      33em 14em $darko,
+      33em 15em $darko,
+      33em 16em $darko,
+      33em 17em $darko,
+      33em 18em $darko,
+      33em 19em $darko,
+      33em 20em $darko,
+      33em 21em $darko,
+      33em 22em $darko,
+      33em 23em $darko,
+      33em 24em $darko,
+      33em 25em $darko,
+
+      8em 25em $darko,
+      8em 26em $darko,
+      32em 25em $darko,
+      32em 26em $darko,
+
+      9em 27em $darko,
+      31em 27em $darko,
+
+      10em 28em $darko,
+      11em 28em $darko,
+      30em 28em $darko,
+      29em 28em $darko,
+
+      28em 29em $darko,
+      27em 29em $darko,
+      12em 29em $darko,
+      13em 29em $darko,
+
+      14em 30em $darko,
+      15em 30em $darko,
+      16em 30em $darko,
+      17em 30em $darko,
+      18em 30em $darko,
+      19em 30em $darko,
+
+      26em 30em $darko,
+      25em 30em $darko,
+      24em 30em $darko,
+      23em 30em $darko,
+      22em 30em $darko,
+      21em 30em $darko,
+
+      20em 29em $darko,
+
+      // light lines inside
+      
+      20em 10em $light,
+      20em 12em $light,
+      20em 13em $light,
+      20em 14em $light,
+      
+      23em 10em $light,
+      24em 11em $light,
+      17em 10em $light,
+      16em 11em $light,
+
+      31em 14em $light,
+      31em 15em $light,
+      31em 16em $light,
+      31em 17em $light,
+      31em 18em $light,
+      31em 19em $light,
+      31em 20em $light,
+      31em 21em $light,
+      31em 22em $light,
+
+      9em 14em $light,
+      9em 15em $light,
+      9em 16em $light,
+      9em 17em $light,
+      9em 18em $light,
+      9em 19em $light,
+      9em 20em $light,
+      9em 21em $light,
+      9em 22em $light,
+
+      10em 25em $light,
+      11em 26em $light,
+      12em 27em $light,
+
+      30em 25em $light,
+      29em 26em $light,
+      28em 27em $light,
+
+      30em 13em $light,
+      29em 12em $light,
+      28em 11em $light,
+
+      10em 13em $light,
+      11em 12em $light,
+      12em 11em $light,
+
+
+      // finished lines + face and colouring in!
+
+      20em 11em $orange,
+      19em 11em $orange,
+      18em 11em $orange,
+      17em 11em $orange,
+      15em 11em $orange,
+      14em 11em $orange,
+      13em 11em $orange,      
+      11em 11em $orange,
+      10em 11em $orange,
+
+      21em 11em $orange,
+      22em 11em $orange,
+      23em 11em $orange,
+      25em 11em $orange,
+      26em 11em $orange,
+      27em 11em $orange,      
+      29em 11em $orange,
+      30em 11em $orange,
+
+      21em 12em $orange,
+      22em 12em $orange,
+      23em 12em $orange,
+      24em 12em $orange,
+      25em 12em $orange,
+      26em 12em $orange,
+      27em 12em $orange,
+      28em 12em $orange,     
+      30em 12em $orange,
+      31em 12em $orange,
+
+      19em 12em $orange,
+      18em 12em $orange,
+      17em 12em $orange,
+      16em 12em $orange,
+      15em 12em $orange,
+      14em 12em $orange,
+      13em 12em $orange,
+      12em 12em $orange,      
+      10em 12em $orange,
+      9em 12em $orange,
+
+      21em 13em $orange,
+      22em 13em $orange,
+      23em 13em $orange,
+      24em 13em $orange,
+      25em 13em $orange,
+      26em 13em $orange,
+      27em 13em $orange,
+      28em 13em $orange,
+      29em 13em $orange,      
+      31em 13em $orange,
+
+      19em 13em $orange,
+      18em 13em $orange,
+      17em 13em $orange,
+      16em 13em $orange,
+      15em 13em $orange,
+      14em 13em $orange,
+      13em 13em $orange,
+      12em 13em $orange,
+      11em 13em $orange,
+      
+      9em 13em $orange,
+
+      8em 14em $orange,
+      8em 15em $orange,
+      8em 16em $orange,
+      8em 17em $orange,
+      8em 18em $orange,
+      8em 19em $orange,
+      8em 20em $orange,
+      8em 21em $orange,
+      8em 22em $orange,
+      8em 23em $orange,
+      8em 24em $orange,
+
+      10em 14em $orange,
+      10em 15em $orange,
+      10em 16em $orange,
+      10em 17em $orange,
+      10em 18em $orange,
+      10em 19em $orange,
+      10em 20em $orange,
+      10em 21em $orange,
+      10em 22em $orange,
+      10em 23em $orange,
+      10em 24em $orange,
+
+      32em 14em $orange,
+      32em 15em $orange,
+      32em 16em $orange,
+      32em 17em $orange,
+      32em 18em $orange,
+      32em 19em $orange,
+      32em 20em $orange,
+      32em 21em $orange,
+      32em 22em $orange,
+      32em 23em $orange,
+      32em 24em $orange,
+
+      30em 14em $orange,
+      30em 15em $orange,
+      30em 16em $orange,
+      30em 17em $orange,
+      30em 18em $orange,
+      30em 19em $orange,
+      30em 20em $orange,
+      30em 21em $orange,
+      30em 22em $orange,
+      30em 23em $orange,
+      30em 24em $orange,
+
+      29em 14em $orange,
+      29em 15em $orange,
+      29em 16em $orange,
+      29em 17em $orange,
+      29em 18em $orange,
+      29em 19em $orange,
+      29em 20em $orange,
+      29em 21em $orange,
+      29em 22em $orange,
+      29em 23em $orange,
+      29em 24em $orange,
+
+      28em 14em $orange,
+      28em 15em $orange,
+      28em 16em $orange,
+      28em 17em $orange,
+      28em 18em $orange,
+      28em 19em $orange,
+      28em 20em $orange,
+      28em 21em $orange,
+      28em 22em $orange,
+      28em 23em $orange,
+      28em 24em $orange,
+
+      11em 14em $orange,
+      11em 15em $orange,
+      11em 16em $orange,
+      11em 17em $orange,
+      11em 18em $orange,
+      11em 19em $orange,
+      11em 20em $orange,
+      11em 21em $orange,
+      11em 22em $orange,
+      11em 23em $orange,
+      11em 24em $orange,
+
+      12em 14em $orange,
+      12em 15em $orange,
+      12em 16em $orange,
+      12em 17em $orange,
+      12em 18em $orange,
+      12em 19em $orange,
+      12em 20em $orange,
+      12em 21em $orange,
+      12em 22em $orange,
+      12em 23em $orange,
+      12em 24em $orange,
+
+      13em 18em $orange,
+      14em 18em $orange,
+      15em 18em $orange,
+      16em 18em $orange,
+      17em 18em $orange,
+      18em 18em $orange,
+      19em 18em $orange,
+      20em 18em $orange,
+      21em 18em $orange,
+      22em 18em $orange,
+      23em 18em $orange,
+      24em 18em $orange,
+      25em 18em $orange,
+      26em 18em $orange,
+      27em 18em $orange,
+      28em 18em $orange,
+
+      13em 22em $orange,
+      14em 22em $orange,
+      15em 22em $orange,
+      16em 22em $orange,
+      17em 22em $orange,
+      18em 22em $orange,
+      19em 22em $orange,
+      20em 22em $orange,
+      21em 22em $orange,
+      22em 22em $orange,
+      23em 22em $orange,
+      24em 22em $orange,
+      25em 22em $orange,
+      26em 22em $orange,
+      27em 22em $orange,
+      28em 22em $orange,
+
+
+      13em 23em $orange,
+      14em 23em $orange,
+      15em 23em $orange,
+      16em 23em $orange,
+      17em 23em $orange,
+      18em 23em $orange,
+      19em 23em $orange,
+      20em 23em $orange,
+      21em 23em $orange,
+      22em 23em $orange,
+      23em 23em $orange,
+      24em 23em $orange,
+      25em 23em $orange,
+      26em 23em $orange,
+      27em 23em $orange,
+      28em 23em $orange,
+
+      13em 19em $orange,
+      14em 19em $orange,
+      15em 19em $orange,
+      16em 19em $orange,
+      17em 19em $orange,
+      18em 19em $orange,
+      19em 19em $orange,      
+      21em 19em $orange,
+      22em 19em $orange,
+      23em 19em $orange,
+      24em 19em $orange,
+      25em 19em $orange,
+      26em 19em $orange,
+      27em 19em $orange,
+      28em 19em $orange,
+
+      13em 20em $orange,
+      14em 20em $orange,
+      15em 20em $orange,
+      16em 20em $orange,
+      17em 20em $orange,
+      18em 20em $orange,      
+      22em 20em $orange,
+      23em 20em $orange,
+      24em 20em $orange,
+      25em 20em $orange,
+      26em 20em $orange,
+      27em 20em $orange,
+      28em 20em $orange,
+
+      13em 21em $orange,
+      14em 21em $orange,
+      15em 21em $orange,
+      16em 21em $orange,
+      17em 21em $orange,
+      23em 21em $orange,
+      24em 21em $orange,
+      25em 21em $orange,
+      26em 21em $orange,
+      27em 21em $orange,
+      28em 21em $orange,
+
+      16em 24em $orange,
+      17em 24em $orange,
+      18em 24em $orange,
+
+      22em 24em $orange,
+      23em 24em $orange,
+      24em 24em $orange,
+
+      9em 24em $orange,
+      9em 23em $orange,
+      9em 25em $orange,
+      11em 25em $orange,
+      12em 25em $orange,
+      13em 25em $orange,
+
+      31em 24em $orange,
+      31em 23em $orange,
+      27em 25em $orange,
+      28em 25em $orange,
+      29em 25em $orange,
+      31em 25em $orange,
+
+      9em 26em $orange,
+      10em 26em $orange,
+      12em 26em $orange,
+      13em 26em $orange,
+      14em 26em $orange,
+      15em 26em $orange,
+
+      25em 26em $orange,
+      26em 26em $orange,
+      27em 26em $orange,
+      28em 26em $orange,
+      30em 26em $orange,
+      31em 26em $orange,
+
+      10em 27em $orange,
+      11em 27em $orange,
+      13em 27em $orange,
+      14em 27em $orange,
+      15em 27em $orange,
+      16em 27em $orange,
+      19em 27em $orange,
+      20em 27em $orange,
+      21em 27em $orange,
+      24em 27em $orange,
+      25em 27em $orange,
+      26em 27em $orange,
+      27em 27em $orange,
+      29em 27em $orange,
+      30em 27em $orange,
+
+      12em 28em $orange,
+      13em 28em $orange,
+      14em 28em $orange,
+      15em 28em $orange,
+      16em 28em $orange,
+      17em 28em $orange,
+      18em 28em $orange,
+      19em 28em $orange,
+      20em 28em $orange,
+      21em 28em $orange,
+      22em 28em $orange,
+      23em 28em $orange,
+      24em 28em $orange,
+      25em 28em $orange,
+      26em 28em $orange,
+      27em 28em $orange,
+      28em 28em $orange,
+
+      14em 29em $orange,
+      15em 29em $orange,
+      16em 29em $orange,
+      17em 29em $orange,
+      18em 29em $orange,
+      19em 29em $orange,
+      21em 29em $orange,
+      22em 29em $orange,
+      23em 29em $orange,
+      24em 29em $orange,
+      25em 29em $orange,
+      26em 29em $orange,
+
+      19em 14em $orange,
+      18em 14em $orange,
+      17em 14em $orange,
+      16em 14em $orange,
+      14em 14em $orange,
+      13em 14em $orange,
+      21em 14em $orange,
+      22em 14em $orange,
+      23em 14em $orange,
+      24em 14em $orange,
+      26em 14em $orange,
+      27em 14em $orange,
+      27em 15em $orange,
+
+      13em 15em $orange,
+
+      17em 15em $orange,
+      18em 15em $orange,
+      19em 15em $orange,
+      20em 15em $orange,
+      21em 15em $orange,
+      22em 15em $orange,
+      23em 15em $orange,
+
+      18em 16em $orange,
+      19em 16em $orange,
+      20em 16em $orange,
+      21em 16em $orange,
+      22em 16em $orange,
+
+      18em 17em $orange,
+      19em 17em $orange,
+      20em 17em $orange,
+      21em 17em $orange,
+      22em 17em $orange,
+
+      19em 10em $orange,    
+      18em 10em $orange,      
+      16em 10em $orange,
+      15em 10em $orange, 
+      14em 10em $orange, 
+      13em 10em $orange,
+      12em 10em $orange,   
+      
+      21em 10em $orange,    
+      22em 10em $orange,    
+      24em 10em $orange,    
+      25em 10em $orange,    
+      26em 10em $orange,    
+      27em 10em $orange,    
+      28em 10em $orange,    
+
+      14em 9em $orange,
+      15em 9em $orange,      
+      16em 9em $orange,      
+      17em 9em $orange,
+
+      23em 9em $orange,
+      24em 9em $orange,
+      25em 9em $orange,
+      26em 9em $orange,
+      
+}
+
+.left-eye {
+  width: 1em;
+  height: 1em;
+  animation: left-pulse 5s infinite;
+
+  @keyframes left-pulse {
+    0% {
+      box-shadow: 
+      15em 13em $black,
+      15em 14em $black,
+      15em 15em $black,
+      15em 16em $black,
+      14em 14em $black,
+      14em 15em $black,
+      14em 16em $black,
+      13em 15em $black,
+      13em 16em $black,
+      16em 14em $black,
+      16em 15em $black,
+      16em 16em $black,      
+      17em 15em $black,
+      17em 16em $black,
+      
+
+    }
+    15% { 
+      box-shadow:
+      15em 13em $black,
+      15em 14em $black,
+      15em 15em $black,
+      15em 16em $black,
+      14em 14em $black,      
+      14em 15em $black,
+      14em 16em $black,
+      13em 15em $black,
+      13em 16em $black,
+      16em 14em $black,
+      16em 15em $black,
+      16em 16em $black,      
+      17em 15em $black,
+      17em 16em $black,
+      
+    }
+    100% {
+      box-shadow: 
+      15em 13em $eyes,
+      15em 14em $eyes,
+      15em 15em $eyes,
+      15em 16em $eyes,
+      14em 14em $eyes,      
+      14em 15em $eyes,
+      14em 16em $eyes,
+      13em 15em $eyes,
+      13em 16em $eyes,
+      16em 14em $eyes,
+      16em 15em $eyes,
+      16em 16em $eyes,      
+      17em 15em $eyes,
+      17em 16em $eyes,
+     
+    }
+  }
+}
+
+.right-eye {
+  width: 1em;
+  height: 1em;
+    // position: 15em 21em;
+    // color: red;
+  animation: right-pulse 5s infinite;
+  
+  
+  @keyframes right-pulse {
+     0% {
+      box-shadow: 
+      25em 12em $black,
+      25em 14em $black,
+      25em 13em $black,
+      25em 15em $black,
+      26em 14em $black,
+      26em 13em $black,
+      26em 15em $black,
+      27em 14em $black,
+      27em 15em $black,
+      24em 13em $black,
+      24em 14em $black,
+      24em 15em $black,
+      23em 14em $black,
+      23em 15em $black,
+    }
+    15% { 
+       box-shadow:
+       25em 12em $black,
+       25em 14em $black,
+       25em 13em $black,
+       25em 15em $black,
+       26em 14em $black,
+       26em 13em $black,
+       26em 15em $black,
+       27em 14em $black,
+       27em 15em $black,
+       24em 13em $black,
+       24em 14em $black,
+       24em 15em $black,
+       23em 14em $black,
+       23em 15em $black,
+
+     }
+    100% {
+       box-shadow: 
+       25em 12em $eyes,
+       25em 14em $eyes,
+       25em 13em $eyes,
+       25em 15em $eyes,
+       26em 14em $eyes,
+       26em 13em $eyes,
+       26em 15em $eyes,
+       27em 14em $eyes,
+       27em 15em $eyes,
+       24em 13em $eyes,
+       24em 14em $eyes,
+       24em 15em $eyes,
+       23em 14em $eyes,
+       23em 15em $eyes,
+     }
+    }
+  }
+
+    .nose {
+      width: 1em;
+      height: 1em;
+      // position: 15em 21em;
+      // color: red;
+      animation: nose-pulse 5s infinite;
+    
+      @keyframes nose-pulse {
+        0% {
+          box-shadow: 
+
+          20em 16em $black,
+          20em 17em $black,
+          20em 18em $black,
+          19em 17em $black,
+          21em 17em $black,
+          19em 18em $black,
+          18em 18em $black,
+          21em 18em $black,
+          22em 18em $black,
+         
+        }
+        15% { 
+          box-shadow:
+          20em 16em $black,
+          20em 17em $black,
+          20em 18em $black,
+          19em 17em $black,
+          21em 17em $black,
+          19em 18em $black,
+          18em 18em $black,
+          21em 18em $black,
+          22em 18em $black,
+        
+        }
+        100% {
+          box-shadow: 
+          20em 16em $eyes,
+          20em 17em $eyes,
+          20em 18em $eyes,
+          19em 17em $eyes,
+          21em 17em $eyes,
+
+          19em 18em $eyes,
+          18em 18em $eyes,
+          21em 18em $eyes,
+          22em 18em $eyes,
+          
+        }
+      }
+    }
+
+    .mouth {
+      width: 1em;
+      height: 1em;
+        // position: 15em 21em;
+        // color: red;
+      animation: mouth-pulse 5s infinite;
+      
+      
+      @keyframes mouth-pulse {
+         0% {
+          box-shadow: 
+          13em 20em $black,
+          14em 20em $black,
+          15em 20em $black,
+          14em 21em $black,
+          15em 21em $black,
+          16em 21em $black,
+          17em 21em $black,
+          18em 21em $black,
+          19em 21em $black,
+          20em 21em $black,
+          21em 21em $black,
+          22em 21em $black,
+          23em 21em $black,
+          24em 21em $black,
+          25em 21em $black,
+          26em 21em $black,
+          25em 20em $black,
+          26em 20em $black,
+          27em 20em $black,
+
+          
+          20em 20em $black,
+          19em 20em $black,
+          21em 20em $black,
+
+          16em 22em $black,
+          17em 22em $black,
+          18em 22em $black,
+          19em 22em $black,
+          20em 22em $black,
+          21em 22em $black,
+          22em 22em $black,
+          23em 22em $black,
+          24em 22em $black,
+
+          17em 23em $black,
+          18em 23em $black,
+
+          22em 23em $black,
+          23em 23em $black,
+
+         
+        }
+        15% { 
+           box-shadow:
+           13em 20em $black,
+           14em 20em $black,
+           15em 20em $black,
+           14em 21em $black,
+           15em 21em $black,
+           16em 21em $black,
+           17em 21em $black,
+           18em 21em $black,
+           19em 21em $black,
+           20em 21em $black,
+           21em 21em $black,
+           22em 21em $black,
+           23em 21em $black,
+           24em 21em $black,
+           25em 21em $black,
+           26em 21em $black,
+           25em 20em $black,
+           26em 20em $black,
+           27em 20em $black,
+
+           
+           20em 20em $black,
+           19em 20em $black,
+           21em 20em $black,
+
+           16em 22em $black,
+           17em 22em $black,
+           18em 22em $black,
+           19em 22em $black,
+           20em 22em $black,
+           21em 22em $black,
+           22em 22em $black,
+           23em 22em $black,
+           24em 22em $black,
+
+           17em 23em $black,
+           18em 23em $black,
+
+           22em 23em $black,
+           23em 23em $black,
+           
+         }
+        100% {
+           box-shadow: 
+           13em 20em $eyes,
+           14em 20em $eyes,
+           15em 20em $eyes,
+           14em 21em $eyes,
+           15em 21em $eyes,
+           16em 21em $eyes,
+           17em 21em $eyes,
+           18em 21em $eyes,
+           19em 21em $eyes,
+           20em 21em $eyes,
+           21em 21em $eyes,
+           22em 21em $eyes,
+           23em 21em $eyes,
+           24em 21em $eyes,
+           25em 21em $eyes,
+           26em 21em $eyes,
+           25em 20em $eyes,
+           26em 20em $eyes,
+           27em 20em $eyes,
+
+           20em 20em $eyes,
+           19em 20em $eyes,
+           21em 20em $eyes,
+
+           16em 22em $eyes,
+           17em 22em $eyes,
+           18em 22em $eyes,
+           19em 22em $eyes,
+           20em 22em $eyes,
+           21em 22em $eyes,
+           22em 22em $eyes,
+           23em 22em $eyes,
+           24em 22em $eyes,
+
+           17em 23em $eyes,
+           18em 23em $eyes,
+
+           22em 23em $eyes,
+           23em 23em $eyes,
+          
+         }
+        }
+      }
+  
+
